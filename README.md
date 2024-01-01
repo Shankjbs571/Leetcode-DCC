@@ -15,7 +15,7 @@ This repository contains my daily solutions to coding problems from LeetCode. Ea
 
 ## How to Use
 
-Feel free to explore the solutions in this repository to learn new problem-solving techniques or to compare your solutions with mine. If you have any feedback or suggestions, feel free to open an issue or submit a pull request.
+Feel free to explore the solutions in this repository to learn new problem-solving techniques or to compare your solutions with mine. 
 
 ## Daily Updates
 
