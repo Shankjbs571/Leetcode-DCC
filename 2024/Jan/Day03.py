@@ -19,3 +19,5 @@ class Solution:
                 prev_sum=d_sum
 
         return total_lines
+    
+    
