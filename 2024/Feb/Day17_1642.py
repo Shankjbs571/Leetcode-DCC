@@ -5,6 +5,9 @@
 
 
 # S O L U T I O N
+import heapq
+
+
 class Solution:
     def furthestBuilding(self, heights: List[int], bricks: int, ladders: int) -> int:
         heap = []
