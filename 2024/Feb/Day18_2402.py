@@ -15,14 +15,14 @@ class Solution:
         meeting_count = [0] * n
         for start, end in sorted(meetings):
             while used_rooms and used_rooms[0][0] <= start:
-                _, room = heappop(used_rooms)
-                heappush(unused_rooms, room)
+                _, room = heapq.heappop(used_rooms)
+                heapq.heappush(unused_rooms, room)
             if unused_rooms:
-                room = heappop(unused_rooms)
-                heappush(used_rooms, [end, room])
+                room = heapq.heappop(unused_rooms)
+                heapq.heappush(used_rooms, [end, room])
             else:
-                room_availability_time, room = heappop(used_rooms)
-                heappush(
+                room_availability_time, room = heapq.heappop(used_rooms)
+                heapq.heappush(
                     used_rooms,
                     [room_availability_time + end - start, room]
                 )
